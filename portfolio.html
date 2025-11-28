@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Shakil Hossain</title>
+    <!-- <link rel="shortcut icon" href=""> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="shakil.png" alt="avatar" width="80" style=" border-radius: 100px; filter: drop-shadow(1px 1px 5px rgba(243, 180, 6, 0.45));">
+                </figure>
+
+                <div class="info-content">
+                    <h2 class="name" title="MD Shakil Hossain">MD SHAKIL HOSSAIN</h2>
+                    <p class="title">Full Stack Web Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:shakilhossain25524@.com" class="contact-link">shakilhossain25524@.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+880 1797 587683" class="contact-link">+880 1797 587683</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+              
+                    <p>I’m a passionate full-stack developer who loves turning ideas into functional and elegant web applications. My backend expertise lies in PHP, especially Laravel and CodeIgniter, while on the frontend I use HTML, CSS, JavaScript, and Vue.js to craft smooth and modern user experiences.
+                       I regularly work with APIs, using Postman for testing and debugging, and I rely on Git and GitHub for clean version control and collaborative development.
+                       I enjoy working across the full stack — from database and server logic to UI and client-side interactions — creating solutions that are both technically solid and user-focused.
+                    </p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Bachelor of Science (B.Sc)</h4>
+                            <span>Passing Year 2019, From <strong>Bangladesh University of Business and Technology(BUBT)<strong></span>
+                            <p class="timeline-text">I have completed a Bachelor of Science (B.Sc.) in Computer Science and Engineering (CSE), a comprehensive 4-year program.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Higher Secondary Certificate(H.S.C)</h4>
+                            <span>Passing Year 2014, From <strong></strong>Sher-E-Bangla Nagar Govt Boy's School & College</strong></span>
+                            <p class="timeline-text">I have completed HSC in Science</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title"> Secondary School Certificate(S.S.C)</h4>
+                            <span>Passing Year 2012, From <strong>Gonovhaban Govt High School</strong></span>
+                            <p class="timeline-text">I have completed SSC in Science</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Software Engineer at <strong>Mysoftheaven (BD) Ltd.</strong></h4>
+                            <span>2022 - Present</span>
+                            <p class="timeline-text">I can develop and oversee creative concepts for projects and campaigns managing a team of designers, writers, and other creative professionals.</p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Skills</h3>
+                    </div>
+
+
+
+<ul class="skills-list"
+    style="
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        flex-wrap: wrap;
+    "
+>
+
+    <!-- Frontend Section -->
+    <li class="skills-item" style="flex: 1; min-width: 300px;">
+        <div class="skill" style="background:#1d1d1d; padding:20px; border-radius:12px; color:#eee;">
+            
+            <h4 class="h4" style="display:flex; align-items:center; gap:10px; margin-bottom:15px;">
+                <i class="fa-solid fa-code" style="color:#4ade80;"></i>
+                Frontend Technologies
+            </h4>
+
+            <div style="display:flex; flex-wrap:wrap; gap:10px;">
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-html5" style="color:#e34f26;"></i> HTML5
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-css3-alt" style="color:#2965f1;"></i> CSS3
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-bootstrap" style="color:#7952b3;"></i> Bootstrap
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-js" style="color:#f7df1e;"></i> JavaScript
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-solid fa-code" style="color:#0769ad;"></i> jQuery
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-vuejs" style="color:#41b883;"></i> Vue.js
+                </span>
+
+            </div>
+        </div>
+    </li>
+
+    <!-- Backend Section -->
+    <li class="skills-item" style="flex: 1; min-width: 300px;">
+        <div class="skill" style="background:#1d1d1d; padding:20px; border-radius:12px; color:#eee;">
+            
+            <h4 class="h4" style="display:flex; align-items:center; gap:10px; margin-bottom:15px;">
+                <i class="fa-solid fa-server" style="color:#60a5fa;"></i>
+                Backend Technologies
+            </h4>
+
+            <div style="display:flex; flex-wrap:wrap; gap:10px;">
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-php" style="color:#777bb4;"></i> PHP
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-laravel" style="color:#ff2d20;"></i> Laravel
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-solid fa-code" style="color:#ef4444;"></i> CodeIgniter
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-solid fa-database" style="color:#06b6d4;"></i> MySQL
+                </span>
+
+            </div>
+        </div>
+    </li>
+
+    <!-- Tools Section -->
+    <li class="skills-item" style="flex: 1; min-width: 300px;">
+        <div class="skill" style="background:#1d1d1d; padding:20px; border-radius:12px; color:#eee;">
+            
+            <h4 class="h4" style="display:flex; align-items:center; gap:10px; margin-bottom:15px;">
+                <i class="fa-solid fa-toolbox" style="color:#fbbf24;"></i>
+                Tools & Others
+            </h4>
+
+            <div style="display:flex; flex-wrap:wrap; gap:10px;">
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-git-alt" style="color:#f03c2e;"></i> Git
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-brands fa-github" style="color:#fff;"></i> GitHub
+                </span>
+
+                <span style="display:flex; align-items:center; gap:6px; background:#262626; padding:6px 12px; border-radius:8px;">
+                    <i class="fa-solid fa-flask" style="color:#9333ea;"></i> Postman
+                </span>
+
+            </div>
+        </div>
+    </li>
+
+</ul>
+
+
+
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>ERP</button></li>
+                        <li class="filter-item"><button data-filter-btn>Others</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="filter-item"><button data-filter-btn>ERP</button></li>
+                            <li class="filter-item"><button data-filter-btn>Others</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="erp">
+                            <a href="https://demo1.hrsheba.com" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="smart_hrm_login.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Smart HRM</h3>
+                                <p class="project-category">ERP</p>
+                                <p class="project-title">username:md_sir,  password:12345678</p>
+                            </a>    
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="erp">
+                            <a href="https://demo.hrsheba.com" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="erp_pay_roll.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">ERP Pay Roll</h3>
+                                <p class="project-category">ERP</p>
+                                <p class="project-title">username:payroll,  password:12345678</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="erp">
+                            <a href="https://egen.mysoftheaven.com" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="egen.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">e-Gen Consultant</h3>
+                                <p class="project-category">ERP</p>
+                                <p class="project-title">username:,  password:</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="erp">
+                            <a href="#" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="smart_hrm_login.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Bank HRM</h3>
+                                <p class="project-category">ERP</p>
+                                <p class="project-title">username:,  password:</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="others">
+                            <a href="http://fdc.mysoftheaven.com" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="fdc.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">BFDC</h3>
+                                <p class="project-category">Others</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="others">
+                            <a href="http://sompod.mysoftheaven.com" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="ams.png" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Asset Management System(AMS)</h3>
+                                <p class="project-category">Others</p>
+                                <p class="project-title">username:admin,  password:12345678</p>
+
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            
+        </div>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
